@@ -1,0 +1,36 @@
+# Secrets - never commit (NFR-4). Only .env.example is tracked.
+.env
+.env.*
+!.env.example
+*-key.json
+service-account*.json
+gcp-credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Local state / scratch
+.cursor_state.json
+spike_output/
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+# ignore .vscode contents but ship the MCP config so cloning registers cassandra-mcp
+.vscode/*
+!.vscode/mcp.json
+
+
+# Auto-generated incident postmortems
+reports/
