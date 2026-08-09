@@ -14,6 +14,15 @@
 
 <sub>Built for the Google Cloud Rapid Agent Hackathon (Arize track). Apache-2.0.</sub>
 
+<p align="center">
+  <br />
+  <a href="https://vimeo.com/1216825156">
+    <img src="https://img.shields.io/badge/Demo%20Video-Watch%20on%20Vimeo-00ADEF?style=for-the-badge&logo=vimeo&logoColor=white" alt="Watch Demo Video on Vimeo" />
+  </a>
+  <br /><br />
+  <b>🎬 <a href="https://vimeo.com/1216825156">Watch Demo Video on Vimeo</a></b>
+</p>
+
 ---
 
 ## The problem
@@ -272,7 +281,9 @@ cassandra/
 | [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md) | Post-hackathon distribution & monetization roadmap |
 | [docs/sessions/](docs/sessions/) | Per-session change log — the project's durable working memory |
 
-## Status
+## Status & Demo Video
+
+🎬 **[Watch Demo Video on Vimeo](https://vimeo.com/1216825156)**
 
 **Deployed and verified end-to-end in the cloud.** Live demo:
 **<https://elianna-unpolymerized-confidingly.ngrok-free.dev>** — the React cockpit (single-file
